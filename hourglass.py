@@ -35,10 +35,9 @@
 # int: the maximum hourglass sum
 
 
-
-
-
-sumsList = []
+def hourglassSum(arr):
+    # Write your code here
+    sumsList = []
     for n in range(4):
         for i in range(4):
             sum = 0
